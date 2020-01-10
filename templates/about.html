@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block body %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/about-bg.jpg') }}')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p style="text-align: justify;">
+        My name is Mani kandan. Am a security researcher and machine learning learner. This is my first blog creation using Flask framework and with the help of bootstrap for frontend devolpment. This blog is all about the machine learning and security related blogs, here you guys can learn the basic to some intermediate level of ML content.
+        
+        </p>
+      </div>
+    </div>
+  </div>
+
+ {% endblock %}

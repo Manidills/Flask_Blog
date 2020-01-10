@@ -1,0 +1,19 @@
+{
+  "params":
+  {
+    
+    "fb_url":"https://facebook.com/manidills",
+    "tw_url":"https://twitter.com/ManikandanA08",
+    "gh_url": "https://github.com/Manidills",
+    "blog_name": "Coding Thunder",
+    "tag_line": "Heaven for programmers",
+    "about_text": "Hi myself Manikandan and its my first blog",
+    "no_of_posts": 1,
+    "admin_user": "manikandan",
+    "admin_password": "manikandan1234",
+    "upload_location": "//home//mani//myproject//blog"
+    
+  }
+}
+
+
